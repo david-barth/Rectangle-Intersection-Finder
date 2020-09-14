@@ -1,0 +1,37 @@
+Strategy for Technical Assignment: UNITELABS
+
+
+Order of Focus: (BDD approach for now). 
+
+	1.  Code the infrastructure for converting JSON files to a data streams that can be processed by the program.  
+	
+		A.  Convert JSON to rectangle objects and store these in an ArrayList. 
+		
+	
+	2.**  Code up the basic implementation (Bruteforce) for the IntersectionReporter algorithm for 1 JSON file. 
+	
+	3.**  On successful completion of desired output from example file, implement defensive programming procedures in order to prevent errors and deal with all use cases. 
+	
+		A. This includes creating unit test suites for each class in order to test functions on all use cases. 
+		
+		B. In tandem with test suites, the implementation of try-catch blocks to handle erroneous use cases should be done on all levels of the program. 
+		
+			I. Test on function / unit level to ensure that individual Algorithm Implementation and JSON conversion procedures work correctly. 
+			
+			II. Test on software level (ie highest level) to ensure different types of JSON file test cases are covered correctly. (Implement black-box styled testing). 
+			
+			
+	
+	4.*  Adapt the core project files to a Maven project build and integrate the project functionality to commandline execution.  
+	
+		A. Important: Figure out how to modify structure so that Maven classpath includes all the necessary files. 
+		
+		B. Ensure that maven build procedure works for the project and that project functions well. 
+
+
+	5.  Refine and adapt according to best practices as necessary, according to project instructions and personal research. 
+
+
+
+*Represents the minimum that must be achieved by project deadline. 
+**Interchangeable steps bepending on whether TDD or BDD approach is desired. 
